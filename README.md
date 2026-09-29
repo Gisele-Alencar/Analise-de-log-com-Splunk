@@ -25,8 +25,6 @@ Para a execução, foi utilizada uma instância do Splunk (Enterprise/Free) e um
 
 ---
 
-## Consultas SPL
-
 ## Análise de Tentativas de Login Falhadas
 Identificação dos 10 principais endereços IP de origem responsáveis por gerar falhas de login.
 
@@ -34,13 +32,13 @@ Identificação dos 10 principais endereços IP de origem responsáveis por gera
 
 
 ## Deteção de Ataque de Força Bruta
-Pesquisa por múltiplas tentativas falhadas (ex: mais de 5 tentativas) para configurar um alerta no Splunk (acionado quando um IP tenta mais de 5 logins em 10 minutos).
+Pesquisa por múltiplas tentativas falhadas para configurar um alerta no Splunk.
 
 <img width="1337" height="380" alt="spul5" src="https://github.com/user-attachments/assets/69b8fb9c-9cf2-4ca8-ac1f-43bd6faa9898" />
 
 
 ## Rastreamento de Logins Bem-sucedidos
-Monitorização de acessos validados para posterior cruzamento com falhas anteriores (deteção de contas comprometidas).
+Monitorização de acessos validados para cruzar com falhas anteriores (deteção de contas comprometidas).
 
 <img width="1355" height="612" alt="spul4" src="https://github.com/user-attachments/assets/97969308-779a-4b3b-b8f4-7faadc758797" />
 
